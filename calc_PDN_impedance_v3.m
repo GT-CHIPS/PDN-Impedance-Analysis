@@ -77,8 +77,9 @@ T_via       = calc_T_bump(cond_cu,via_radius,via_pitch,via_height,freq);
 tic
 %This takes around 5-6 minutes to calculate due to large M & N 
 %(to be improved)
-% T_grid      = calc_Z_grid(himd,cond_si,esi,epoly,cond_cu,tand_poly,t_metal,grid_width,grid_spacing,M_grid,N_grid,in_port_grid,out_port_grid,freq,25);
-load('T_grid_himd_1um_gridwidth_40um_spacing_100um_M_50_N_50_in_75_out_25.mat');
+T_grid      = calc_Z_grid(himd,cond_si,esi,epoly,cond_cu,tand_poly,t_metal,grid_width,grid_spacing,M_grid,N_grid,in_port_grid,out_port_grid,freq,25);
+% Load existing T-grid if available
+% load('T_grid_himd_1um_gridwidth_40um_spacing_100um_M_50_N_50_in_75_out_25.mat');
 toc
 %% Calculate Contribution of each component to PDN impedance
 Y_TSV = abcd2y(T_TSV);
