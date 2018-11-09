@@ -9,6 +9,7 @@ Copyright (c) 2018 Hakki Mert Torun
 Power Delivery Network (PDN) Impedance Analysis for Heteregenous Integration. 
 
 Components in PDN analysis include:
+ - Interposer P/G grid
  - PCB P/G plane,
  - C4/u-bump bump array with customizable ground/signal/power pattern
  - TSV array with customizable ground/signal/power pattern
