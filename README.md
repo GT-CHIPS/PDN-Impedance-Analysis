@@ -1,5 +1,9 @@
 PDN Impedance Analysis Tool for Heteregeneous Integration 
 --------------------------------------------------------------------------------------------------------------------
+
+![alt text](example_output_PDN_impedance.jpg "Example output of PDN Impedance Analysis Tool")
+
+
 Copyright (c) 2018 Hakki Mert Torun
 Power Delivery Network (PDN) Impedance Analysis for Heteregenous Integration. 
 Components in PDN analysis include:
@@ -11,7 +15,7 @@ Components in PDN analysis include:
 All components are parameterized with respect to their material and geometrical dimensions. 
 The code is tested on Matlab R2017b.
 The papers from which this tool is based on are provided inside the scripts in appropriate places.
-Example output of the code is provided as a plot.
+
 This material is based on work supported by DARPA CHIPS project under award N00014-17-1-2950.
 For questions and queries, please contact: htorun3@gatech.edu
 
